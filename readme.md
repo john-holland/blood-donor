@@ -2,6 +2,9 @@
 
 A simple app to help you time squeezes while giving blood.
 
+![screenshot](screenshot-1.png)
+![screenshot](screenshot-2.png)
+
 ---
 
 Attributions
