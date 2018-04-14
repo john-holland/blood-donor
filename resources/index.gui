@@ -1,0 +1,10 @@
+<svg>
+  <defs>
+    <link rel="import" href="meter_widget.gui" />
+  </defs>
+  
+  <link rel="import" href="squeeze.gui" />
+  <link rel="import" href="paused.gui" />
+  <link rel="import" href="squeezing.gui" />
+  <link rel="import" href="summary.gui" />
+</svg>

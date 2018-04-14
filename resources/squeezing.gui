@@ -1,0 +1,22 @@
+<svg id="squeezing"  display="none">
+  <use id="squeeze-meter" href="#meter-blue-icon" x="100%-80" y="0">
+    <!-- <set href="#arc" attributeName="sweep-angle" to="290" /> -->
+    <set href="#image" attributeName="href" to="img/timer.png" />
+  </use>
+  
+  <text id="elapsed" class="text large" text-anchor="start" x="2%" y="180" />
+  <image href="img/stat_hr_open_32px.png" fill="fb-red" x="2%" y="98%-32" width="32" height="32" /><text id="heartrate" class="text medium" fill="fb-red" text-anchor="start" x="5%+32" y="100%-14" />
+  
+    <!-- TOP LEFT -->
+  <use id="btn-interval" href="#combo-button-upper-left" fill="fb-cyan">
+    <set href="combo-button-icon" attributeName="href" to="img/cog.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="img/cog_press.png"/>
+  </use>
+  
+  <!-- BOTTOM RIGHT -->
+  <use id="btn-pause" href="#combo-button-lower-right" fill="fb-peach">
+    <set href="combo-button-icon" attributeName="href" to="img/pause.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="img/pause_press.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+</svg>

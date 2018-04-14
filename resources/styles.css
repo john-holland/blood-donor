@@ -1,0 +1,68 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.interval-item {
+  height: 88;
+}
+
+.interval-item text {
+  font-family: System-Regular;
+  fill: "white";
+}
+
+.tile-divider-bottom {
+  x: 0;
+  y: 100%-2;
+  width: 100%;
+  height: 2;
+  fill: #A0A0A0;
+}
+
+
+.tile-list-item {
+  height: 88;
+}
+
+.tile-list-item text {
+  font-family: System-Regular;
+  fill: "white";
+}
+
+.tile-divider-bottom {
+  x: 0;
+  y: 100%-2;
+  width: 100%;
+  height: 2;
+  fill: #A0A0A0;
+}
+
+.text {
+  font-family: SevilleSharp-Book;
+  fill: fb-white;
+  text-length: 1000;
+}
+
+.large {
+  font-size: 80;
+  font-weight: bold;
+  fill: mintcream;
+  width: 100%;
+  text-anchor: middle;
+}
+
+.stats {
+  font-size: 60;
+  fill: mintcream;
+  width: 100%;
+  text-anchor: middle;
+}
