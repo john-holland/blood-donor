@@ -36,9 +36,11 @@ export class Summary extends View {
   }
 
 	onRender() {
+    let avgHeartRate = average(this.application.squeezeModel.heartrateReadings, 100).toFixed(2)
+    
     this.$("#time").text = this.application.squeezeModel.getElapsedTimeString()
     console.log('readings', this.application.squeezeModel.heartrateReadings)
-    this.$("#heartrate").text = average(this.application.squeezeModel.heartrateReadings, 100).toFixed(2) + ' average'
+    this.$("#heartrate").text = (isNaN(avgHeartRate) ? '--' : avgHeartRate) + ' average'
     this.$("#squeezes").text = this.application.squeezeModel.getSqueezes() + ' squeezes'
 	}
 

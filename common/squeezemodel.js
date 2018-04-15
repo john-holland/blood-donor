@@ -13,7 +13,7 @@ export class SqueezeModel {
   }
 
   end() {
-    this.pause()
+    this.pause(false)
     this.heartRateMonitor.stop()
   }
 
@@ -23,8 +23,8 @@ export class SqueezeModel {
     this.heartRateMonitor.reset()
   }
 
-  pause() {
-    if (this.timeStarted > -1) {
+  pause(additiveTimeElapsed = true) {
+    if (additiveTimeElapsed && this.timeStarted > -1) {
       this.timeElapsed += (new Date().getTime() - this.timeStarted)
     }
     this.intervalBuzzer.stop()
