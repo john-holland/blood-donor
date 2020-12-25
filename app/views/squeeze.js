@@ -18,7 +18,7 @@ export class Squeeze extends View {
     let items = this.$("#intervals .interval-item")
 
     items.forEach(function(element, index) {
-      let touch = element.getElementById("touch-me")
+      let touch = element.getElementById("touch-event-rectangle")
       touch.onclick = function(evt) {
         let interval = (index+1)*5
         this.intervalSelected(interval)

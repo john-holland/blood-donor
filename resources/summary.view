@@ -6,9 +6,5 @@
   
   
     <!-- BOTTOM RIGHT -->
-  <use id="btn-reset" href="#combo-button-lower-right" fill="fb-peach">
-    <set href="combo-button-icon" attributeName="href" to="img/reset.png"/>
-    <set href="combo-button-icon-press" attributeName="href" to="img/reset.png"/>
-    <set href="combo-button-stroke" attributeName="display" to="inline"/>
-  </use>
+  <use id="btn-reset" href="#icon-button" fill="fb-peach" class="medium-button reset-button" />
 </svg>

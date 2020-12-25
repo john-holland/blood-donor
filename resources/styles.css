@@ -66,3 +66,98 @@
   width: 100%;
   text-anchor: middle;
 }
+
+
+
+.list-item {
+  height: 112;
+}
+
+.list-item text {
+  fill: "white";
+  x: 50%;
+  text-anchor: middle;
+  font-size: 24;
+}
+
+.line {
+  height: 6;
+  width: 100%;
+  fill: #222222;
+  y: 100%-6;
+}
+
+.header text {
+  font-weight: bold;
+  fill: fb-cyan;
+  font-size: 30;
+}
+
+.squeeze-header-timer {
+  display: inline;
+}
+
+.footer text {
+  font-weight: bold;
+  fill: fb-green;
+  font-size: 30;
+}
+
+.application-fill { fill: fb-orange; }
+.foreground-fill { fill: fb-white; }
+.background-fill { fill: fb-black; }
+
+/**
+  top left
+ */
+.interval-button {
+  x: 5%;
+  y: 5%;
+  fill: fb-white;
+}
+.interval-button #image {
+  href: "img/cog.png";
+}
+
+/**
+  bottom right
+ */
+.play-button {
+  x: 74%;
+  y: 74%;
+}
+.play-button #image {
+  href: "img/play.png";
+}
+
+.pause-button {
+  x: 74%;
+  y: 74%;
+}
+.pause-button #image {
+  href: "img/pause.png";
+}
+
+/**
+  top right
+ */
+.finish-button {
+  x: 74%;
+  y: 4%;
+}
+.finish-button #image {
+  href: "img/flag.png";
+}
+
+.reset-button {
+  x: 74%;
+  y: 74%;
+}
+.reset-button #image {
+  href: "img/reset.png";
+}
+
+.list-touch-rect {
+  background-color: transparent;
+  fill-opacity: 0;
+}
