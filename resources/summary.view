@@ -1,0 +1,14 @@
+<svg id="summary" display="none">
+  
+  <text id="time" class="text large" text-anchor="start" x="2%" y="80" />
+  <text id="squeezes" class="text stat" text-anchor="start" x="4%" y="130" />
+  <image href="img/stat_hr_open_32px.png" fill="fb-red" x="2%" y="150" width="32" height="32" /><text id="heartrate" class="text medium" fill="fb-red" text-anchor="start" x="5%+32" y="174" />
+  
+  
+    <!-- BOTTOM RIGHT -->
+  <use id="btn-reset" href="#combo-button-lower-right" fill="fb-peach">
+    <set href="combo-button-icon" attributeName="href" to="img/reset.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="img/reset.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+</svg>

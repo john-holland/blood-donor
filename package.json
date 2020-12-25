@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "5.0"
+  },
+  "fitbit": {
+    "appUUID": "fb446b63-43f3-4b7a-ac18-74e697b6e9a0",
+    "appType": "app",
+    "appDisplayName": "Blood Donor",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Blood Donor"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

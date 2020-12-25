@@ -1,0 +1,10 @@
+<svg>
+  <defs>
+    <link rel="import" href="meter_widget.view" />
+  </defs>
+  
+  <link rel="import" href="squeeze.view" />
+  <link rel="import" href="paused.view" />
+  <link rel="import" href="squeezing.view" />
+  <link rel="import" href="summary.view" />
+</svg>
