@@ -1,6 +1,10 @@
 import document from "document";
 import * as messaging from "messaging";
+import { display } from "display";
 import { BloodDonor } from './blooddonor'
+
+display.autoOff = false;
+display.on = true;
 
 BloodDonor.start()
 

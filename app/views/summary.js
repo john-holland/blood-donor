@@ -23,6 +23,8 @@ export class Summary extends View {
   name = 'summary'
 
   constructor() {
+    super();
+
     this.$ = $at('#summary')
     
     this.el = this.$()

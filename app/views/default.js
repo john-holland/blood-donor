@@ -9,8 +9,9 @@ export class Default extends View {
   name = 'default'
 
   constructor() {
-    this.$ = $at('#default')
-    
+      super();
+      this.$ = $at('#default')
+
     this.el = this.$()
   }
 

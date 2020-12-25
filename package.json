@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+  "devDependencies": {
+    "@fitbit/sdk": "5.0"
+  },
+>>>>>>> reexport and update, ui is broken
   "fitbit": {
     "appUUID": "fb446b63-43f3-4b7a-ac18-74e697b6e9a0",
     "appType": "app",
@@ -11,6 +17,7 @@
       "access_user_profile"
     ],
     "buildTargets": [
+<<<<<<< HEAD
       "higgs",
       "meson"
     ],
@@ -21,3 +28,19 @@
     }
   }
 }
+=======
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Blood Donor"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
+>>>>>>> reexport and update, ui is broken

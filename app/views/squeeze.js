@@ -6,14 +6,15 @@ import { HeartRateSensor } from "heart-rate";
 import { View, $, $at } from '../../common/view'
 import { display } from "display";
 
-export class Squeeze extends View {  
+export class Squeeze extends View {
   name = 'squeeze'
 
   constructor() {
+    super();
     this.$ = $at('#squeeze')
-    
+
     this.el = this.$()
-    
+
     let items = this.$("#intervals .interval-item")
 
     items.forEach(function(element, index) {
@@ -35,8 +36,6 @@ export class Squeeze extends View {
   onMount() {
   }
 
-	onRender() {
-	}
-
-  
+  onRender() {
+  }
 }

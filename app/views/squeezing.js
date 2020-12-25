@@ -11,6 +11,7 @@ export class Squeezing extends View {
   name = 'squeezing'
   
   constructor() {
+    super();
     this.$ = $at('#squeezing')
     
     this.el = this.$()

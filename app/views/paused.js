@@ -10,6 +10,7 @@ export class Paused extends View {
   name = 'paused'
 
   constructor() {
+    super();
     this.$ = $at('#paused')
     
     this.el = this.$()
